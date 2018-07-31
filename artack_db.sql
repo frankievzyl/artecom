@@ -169,7 +169,7 @@ CREATE TABLE `product` (
   `StockLevel` tinyint(4) NOT NULL,
   `Name` varchar(50) NOT NULL,
   `Description` tinytext,
-  `Image` varchar(100) DEAULT NULL,
+  `Image` varchar(100) DEFAULT NULL,
   `SpecialPrice` decimal(8,2),
   `SpecialEnd` datetime,
   `ColourID` smallint(6) DEFAULT NULL,
