@@ -1,0 +1,32 @@
+fieldset{
+    display:flex;
+    align-content: center;
+    
+    flex-direction: column;
+    position:relative;
+    left: 10%;
+}
+
+[type=button]{
+    width:20%;
+}
+
+input{
+    align-self: flex-start;
+}
+fieldset > div{
+
+    position:relative;
+    padding: 0.2em;
+}
+.formlabels{
+    width: 30%;
+    text-align: right;
+    position:relative;
+    left: -1%;
+}
+
+.formerrors{
+    color: red;
+    font-style:italic;
+}

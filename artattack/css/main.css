@@ -1,0 +1,488 @@
+@font-face{
+    font-family: myPrisma;
+    src: url(Prisma.ttf);
+}
+
+body{
+    background-image: url("../images/wallpaperLight.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+*{
+    font-size: 1em;
+}
+
+#special i{
+    font-size:2em;
+}
+#special{
+    margin: 3vh 0px;
+}
+/*tool tips*/
+.tool{
+    border-bottom: 1px dotted black;
+}
+
+a i{
+   /* background-color:gray;*/
+    color:#444;
+    font-size:2.5em;
+}
+#face:hover i{
+    color:#3e62c1;
+}
+#insta:hover i{
+    background: linear-gradient(to top right, #efd521 10%, #ff1114 40%, #d22d5f 60%, #4038e0 90%);
+    color:white;
+    border-radius: 0.2em;
+}
+#gog:hover i{
+    color:#e96752;
+}
+#twit:hover i{
+    color:#21b0ff;
+}
+#pin:hover i{
+    color:#b90000;
+}
+
+.tool .tooltip{
+    width:0em;
+    height: 0em;
+    visibility: hidden;
+    background-color: #aa3;
+    color:#444;
+    text-align: center;
+    padding: 0.2em 0.1em;
+    border-radius: 0.1em;
+    position:relative;
+    z-index:1 ;
+    /*-webkit-transition: width 1s, height 1s ;
+    -o-transition: width 1s, height 1s;
+    -moz-transition: width 1s, height 1s;
+    transition: width 1s, height 1s;
+    -webkit-transition-timing-function: ease-in ;
+    -o-transition-timing-function: ease-in ;
+    -moz-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;*/
+}
+
+.tool:hover .tooltip{
+    visibility: visible;
+    width:2em;
+    height:2em;
+}
+
+#pagegrid{}
+/*start INDEX */
+
+/*#mainactivity{
+    overflow:scroll;
+    height:70vh;
+}*/
+#catblocks{
+    overflow:scroll;
+    width:70vw;
+    height:80vh;
+}
+#companylogo{
+    max-width: 300px;
+    height: auto;
+}
+.filler{}
+#accountbtns{
+    display:inline-flex;
+    direction: rtl;
+}
+
+
+#custprofbtn{}
+
+header{
+    background-color: white;
+    position: sticky;
+}
+
+
+#custloginbtn{}
+#custsignupbtn{}
+#divcontroller
+#shiftbuttons{
+    display:flex;
+    
+    align-content: stretch;
+    
+    position:sticky;
+     background-color: gainsboro;
+    
+}
+
+i {
+    padding-right: 0.2em;
+    color:currentColor;
+}
+
+#shiftbuttons i:first-child{
+    display: none;
+}
+#swipegrid{}
+
+#searchbplbtn{}
+.panelbtn{
+}
+#catpnlbtn{}
+#specialhanger{}
+#categories{
+    height: 10vh;
+    background-color:gainsboro;
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 0px 2em;
+    border: 0.2em solid currentColor;
+    border-top:none;
+}
+#categories label, #categories [type="checkbox"]{
+    float:right;
+}
+#categories select{
+    height:1.5em;
+    
+}
+[id*="pcatfld"]{}
+[class*="optsuper"]{}
+#catchk{}
+
+
+/*START search section*/
+
+#searchform{
+    background-color: inherit;
+    padding: 1em 0px;
+    margin-right: 2em;
+}
+
+
+#search{
+    /*height:80vh;
+    overflow-y: scroll;*/
+    background-color: gainsboro;
+    border-right: 0.2em solid currentColor;
+    border-bottom: 0.2em solid currentColor;
+}
+
+
+#searchfld{}
+#sort{}
+#pricegrp{}
+#rategrp{}
+#filter{}
+.currency{}
+#stockgrp{}
+#brands{}
+#ranges{}
+#colours{}
+
+/*END search section*/
+#special{}
+#special img{
+    width:4em;
+    height: auto;
+}
+
+#special div{
+    display:inline;
+    cursor: pointer;
+    opacity:0.5;
+}
+#specialbtn{}
+#voucherbtn{}
+#store{
+    display:flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    align-items: stretch;
+}
+#store .storeproduct{
+    display:inline;
+}
+#catblocks > div{
+    max-width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    /*align-items: center;*/
+}
+
+#catblocks > div > div{
+   /* justify-content: center;
+    align-items: center;*/
+    cursor: pointer;
+    font-family: myPrisma;
+    font-size: 2.6em;
+    margin: 3%;
+    padding: 2% 2%;
+    background-color: gainsboro;
+    box-shadow: 9px 7px 15px -1px currentColor;    
+}
+
+
+.flexgrid{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.prevcatbtn{
+    cursor: pointer;
+    font-family: myPrisma;
+    font-size: 2.6em;
+    margin: 3%;
+    padding: 2% 2%;
+    color:white;
+    background:#444;
+    box-shadow: 9px 7px 15px -1px black;
+}
+div[id*="catsuper"]{}
+div[id*="cb"]{}
+#internallinks{
+    display:flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+button{}
+
+/* Product items in store */
+
+
+.addtocartbtn{
+    width:2em;
+    height: auto;
+}
+
+@media screen and (max-width: 992px){
+    .storeproduct{
+        width:100%;
+    }
+    
+    .panelbuttonsgrplarge{
+        display:none;
+    }
+    .panelbuttonsgrpsmall{
+        display:block;
+    }
+}
+
+@media screen and (min-width:992px){
+    .storeproduct{
+        width:256px;
+        height:256px;
+    }
+    
+    .panelbuttonsgrpsmall{
+        display:none;
+    }
+    .storeproduct:hover .pushback{
+        display:none;
+    }
+    .pushback{
+        display:block;
+    }
+    .storeproduct:hover .panelbuttonsgrplarge{
+        display:block;
+        position:relative;
+        top:0px;
+        left:0px;
+        visibility: visible;
+        width:100%;
+        height:100%;
+    }
+    .panelbuttonsgrplarge > [type=button]:first-child{
+        width:inherit;
+        height: 50%;
+    }
+    .panelbuttonsgrplarge > [type=button]{
+        width:inherit;
+        height:25%;
+    }
+    .storeproduct .panelbuttonsgrplarge{
+        visibility: collapse;
+        display:none;
+        width: 0%;
+        height:0%;
+    }
+}
+
+/* end product items*/
+
+#externallinks{}
+.imglink{
+    width:10%;
+    height:auto;
+}
+#scentrebtn{}
+input[type*="checkbox"]{}
+input[type*="radio"]{}
+
+/*end INDEX*/
+
+/*start VIEWPRODUCT*/
+.pattrunit{
+    border-bottom: 1px dotted black;
+}
+
+.pattrdesc{
+    visibility: hidden;
+    background-color: darkkhaki;
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1;
+    padding: 2px;
+    border-color: black;
+}
+
+.pattrunit:hover .pattrdesc{
+    visibility: visible;
+}
+
+#addreviewbtn{
+    float:right;
+}
+
+#changecolour{
+    float: right;
+    display:flex;
+    flex-direction: column;
+}
+
+#pheritage{
+    display: flex;
+    flex-direction: column;
+}
+
+.rratingstars, #reditingstars {
+   color:#cc0;
+    left:0px;
+    top:0px;
+    z-index: 10;
+}
+
+.rratingbase{
+    position:relative;
+    
+}
+
+.newreview > span{
+    display:inline-block;
+}
+/*end VIEWPRODUCT*/
+
+/*start EDITPRODUCT*/
+
+
+#pcat div{
+    display:inline-flex;
+}
+/*end EDITPRODUCT*/
+
+/*all fieldsets*/
+fieldset > *{
+    opacity: inherit;
+}
+
+/*colour selector*/
+#colourselect{
+    background-color:#777;
+}
+.cfullprev{
+    cursor:pointer;
+}
+.chexprev{
+    display:inline-block;
+    width:2em;
+    height:2em;
+    border: 0.2em solid black;
+    border-radius: 0.2em;
+}
+
+/*start STORE*/
+.cartcount *{
+    display:inline;
+}
+
+/*end STORE*/
+
+/*SEARCH FORM */
+
+#searchform{
+    display:flex;
+    flex-direction: column;
+    
+}
+#searchform fieldset{
+    left: 0px;
+}
+#searchform label i{
+    display:none;
+    font-size:1.5em;
+}
+#searchform label i:last-child{
+    display: inline-block;
+}
+/*
+#sort i{
+    display:none;
+    
+}*/
+
+#searchform button{
+    width:auto;
+    
+}
+
+/*START general forms*/
+fieldset{
+    display:flex;
+    align-content: center;
+    
+    flex-direction: column;
+    position:relative;
+    left: 10%;
+     background-color: gainsboro;
+    
+}
+
+form [type=button]{
+    width:20%;
+    
+}
+
+form input{
+    align-self: flex-start;
+}
+fieldset > div{
+
+    position:relative;
+    padding: 0.2em;
+}
+.formlabels{
+    width: 30%;
+    text-align: right;
+    position:relative;
+    left: -1%;
+}
+
+.formerrors{
+    color: red;
+    font-style:italic;
+}
+
+form{
+     background-color: gainsboro;
+    
+   
+}
+/*END general forms*/

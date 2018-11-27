@@ -1,0 +1,119 @@
+/*.invproduct > div{
+    display:inline-flex;
+}*/
+
+
+#details{
+    background-color: gainsboro;
+    border: 0.2em solid currentColor; 
+    border-top:none;
+}
+
+#details input{
+    display:none;
+}
+
+
+#details label i:nth-child(2){
+    display:none;
+}
+
+#panelbuttons{
+    /*position:fixed;*/
+    background-color:#fff;
+}
+
+/*START inventory styles*/
+.invproduct:nth-child(even){
+    background-color: #ddd;
+}
+
+.invproduct:nth-child(odd){
+    background-color: #eee;
+}
+/*END inventory styles*/
+/*table styles*/
+#tablescroller{
+    overflow-y: scroll;
+    height: 100vh;
+}
+table{
+    border: 0.2em solid #444;
+    text-overflow: clip;
+    width:100%;
+}
+
+.currency{
+    font-size:0.8em;
+    font-weight: lighter;
+}
+colgroup{
+    display: none;
+}
+thead{
+    height:20px;
+    position:fixed;
+}
+th{
+    font-size: 1.1em;
+    font-style:italic;
+    text-align: center;
+    background-color:#fff;
+}
+td{
+    text-align: center;
+    padding: 0.5em 1em;
+}
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+tr:nth-child(even) td{
+    border-right: 0.1em dotted #bbb;
+}
+tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+tr:nth-child(odd) td{
+    border-right: 0.1em dotted #bbb;
+}
+tr:hover{
+    font-weight: bold;
+}
+
+td:last-child{
+    border-right: none;
+}
+
+/*REPORT specific styles*/
+
+.bcclm{
+    font-family: "Courier New";
+}
+.nameclm td{
+    text-align: left;
+}
+.thinclm{
+    width:3em;
+    
+}
+.thinclm th{
+    text-overflow: clip;
+}
+.dateclm{}
+.timeclm{}
+.moneyclm{}
+
+
+
+/*EXTRA tables specific styles*/
+.extratable{
+    
+}
+
+#commands{
+     background-color: gainsboro;
+     border-left: 0.2em solid currentColor; 
+    border-bottom:: 0.2em solid currentColor; 
+}

@@ -1,0 +1,66 @@
+@font-face{
+    font-family: myPrisma;
+    src: url(Prisma.ttf);
+}
+
+#commands div{
+    display:flex; 
+    flex-direction:column; 
+    justify-content: center;
+}
+
+#commands{
+    height:100vh;
+   /* overflow-y: scroll;*/
+}
+
+#commands>div>span{
+    align-self: center;
+    font-family: myPrisma;
+    color:#222;
+    font-size: 1.5em;
+}
+
+#commands>div>button{
+    border-radius: 0.5em;
+    margin:0.2em;
+    border-color: white;
+    font-weight: bold;
+}
+#commands>div>button:hover{
+    color: #fff;
+}
+
+#productcmds>button{
+    background-color: #f2a2a2;
+    color: #e5e5e5;
+}
+#productcmds>button:hover{
+    background-color: #db4848;
+}
+
+#specialcmds>button{
+    background-color: #f2f1a2;
+    color: #c9c9c9;
+}
+#specialcmds>button:hover{
+    background-color: #dbd946;
+}
+
+#reportcmds>button{
+    background-color: #a2f2a2;
+    color: #c9c9c9;
+}
+#reportcmds>button:hover{
+    background-color: #40d840;
+}
+#accountcmds>button{
+    background-color: #a2a6f2;
+    color: #e5e5e5;
+}
+#accountcmds>button:hover{
+    background-color: #3a42d8;
+}
+.admin{
+    
+}

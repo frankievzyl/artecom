@@ -1,0 +1,37 @@
+5	finish layout styling.
+
+5	finish styling.
+
+6	add animations.
+
+3	add more reports and finish complicating existing reports.
+
+change product view when different colour is selected
+
+
+put validation "onchange" for all fields (logins and transaction, other managements)
+
+    add categories
+    link categories
+    
+    finish final page management buttons
+
+finish layout for:
+viewproduct page
+manage product page
+catblocks?
+
+
+!!!!
+
+add time periods for relevant reports
+check search query
+
+!!!!
+
+%% make re-adding "deleted" product possible
+
+have management page reload search resutls when editing was done
+
+style form errors appearing
+style attr desc appearing as hint, as in view product (duh?!)
